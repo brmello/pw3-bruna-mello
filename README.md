@@ -15,7 +15,7 @@ Antes de começar, garanta que você tem as seguintes ferramentas instaladas:
 
 ---
 
-# 📚 Guia de Instalação Rápida
+# Passo a Passo
 
 ### 1. Criar o Projeto
 No seu terminal, execute o comando para gerar a estrutura inicial:
