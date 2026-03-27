@@ -13,7 +13,6 @@ Antes de começar, garanta que você tem as seguintes ferramentas instaladas:
 *   **Node.js & NPM** (Para compilar CSS e JavaScript via Vite)
 *   **Banco de Dados** (MySQL, PostgreSQL ou SQLite)
 
----
 
 ## 📚 Guia de Instalação Rápida
 
