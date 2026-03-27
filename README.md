@@ -21,3 +21,7 @@ Antes de começar, garanta que você tem as seguintes ferramentas instaladas:
 No seu terminal, execute o comando para gerar a estrutura inicial:
 ```bash
 laravel new example-app
+```
+- Este comando cria uma nova pasta chamada example-app com todo o esqueleto do projeto Laravel configurado.
+- Ele baixa todos os arquivos necessários, bibliotecas e configurações básicas.
+- O instalador pode perguntar algumas configurações, como o banco que você vai usar, framework de testes e kits iniciais, que são conjuntos prontos para ajudar no começo do projeto.
