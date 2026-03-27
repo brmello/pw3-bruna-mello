@@ -4,7 +4,7 @@ O **Laravel** é um framework PHP expressivo e elegante, projetado para facilita
 
 ---
 
-## 💠 Pré-requisitos
+# 💠 Pré-requisitos
 
 Antes de começar, garanta que você tem as seguintes ferramentas instaladas:
 
