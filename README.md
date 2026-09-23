@@ -103,3 +103,33 @@ php artisan migrate
 php artisan make:controller HelloController
 ```
 - Esse comando gera uma classe Controller, onde você vai colocar a lógica para responder às requisições web.
+
+Java Spring Boot
+
+Para iniciar o desenvolvimento do projeto, acesse o site oficial do Spring Initializr em https://start.spring.io e faça o download da estrutura do projeto.
+
+Configurações do projeto
+
+Project: selecione Maven, entre as opções Gradle Kotlin, Gradle Groovy e Maven, pois ele será utilizado para gerenciar o projeto Java.
+
+Language: escolha Java, que será a linguagem utilizada no desenvolvimento da aplicação.
+
+Spring Boot: selecione a versão 4.1.0, evitando as versões marcadas como SNAPSHOT.
+
+Project Metadata: preencha as informações do projeto de acordo com as configurações desejadas.
+
+Packaging: escolha Jar em vez de War.
+
+Configuration: selecione Properties para o formato dos arquivos de configuração.
+
+Java: escolha a versão 25, conforme definido para o projeto.
+
+Dependencies: adicione as dependências necessárias. Neste projeto, serão utilizadas:
+
+Spring Web
+
+Lombok
+
+Spring Boot DevTools
+
+Depois de definir todas essas opções, basta gerar o projeto pelo Spring Initializr e abrir os arquivos no ambiente de desenvolvimento escolhido.
