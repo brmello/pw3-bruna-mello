@@ -105,37 +105,97 @@ php artisan make:controller HelloController
 - Esse comando gera uma classe Controller, onde você vai colocar a lógica para responder às requisições web.
 
 ---
-
 # ☕ Java Spring Boot
 
-Este projeto foi desenvolvido utilizando **Spring Boot**, **Java 25** e **Maven** para gerenciamento das dependências.
+Para iniciar o desenvolvimento do projeto, será utilizado o **Spring Boot**.
 
-## ⚙️ Configuração do Projeto
+Acesse o **[Spring Initializr](https://start.spring.io)** para criar e baixar a estrutura inicial da aplicação.
 
-O projeto foi criado através do [Spring Initializr](https://start.spring.io), utilizando as seguintes configurações:
+## ⚙️ Configurações
 
-| Configuração | Escolha |
-|---|---|
-| 📦 Project | Maven |
-| ☕ Language | Java |
-| 🌱 Spring Boot | 4.1.0 |
-| 📄 Packaging | Jar |
-| ⚙️ Configuration | Properties |
-| 🔢 Java | 25 |
+### 📦 Project
 
-> ⚠️ Foi utilizada uma versão estável do Spring Boot, sem versões `SNAPSHOT`.
+Entre as opções disponíveis:
 
-## 📚 Dependências
+- Gradle Kotlin
+- Gradle Groovy
+- **Maven** ✅
 
-As seguintes dependências foram adicionadas ao projeto:
+Foi escolhido o **Maven** para realizar o gerenciamento e a organização do projeto Java.
+
+### 💻 Language
+
+Entre as opções disponíveis:
+
+- **Java** ✅
+- Kotlin
+- Groovy
+
+Foi selecionado o **Java**, que será utilizado como linguagem principal do projeto.
+
+### 🌱 Spring Boot
+
+Foi selecionada a versão:
+
+**4.1.0** ✅
+
+> ⚠️ Não utilize versões `SNAPSHOT`, pois são versões de desenvolvimento.
+
+### 📝 Project Metadata
+
+As informações do projeto devem ser preenchidas de acordo com as configurações desejadas, como:
+
+- Group
+- Artifact
+- Name
+- Description
+- Package Name
+
+### 📦 Packaging
+
+Entre as opções:
+
+- **Jar** ✅
+- War
+
+Foi escolhido o formato **Jar** para o empacotamento da aplicação.
+
+### ⚙️ Configuration
+
+Para o formato de configuração do projeto, foi selecionado:
+
+**Properties** ✅
+
+### ☕ Java
+
+A versão utilizada no projeto será:
+
+**Java 25** ✅
+
+### 📚 Dependencies
+
+As dependências adicionadas ao projeto são:
 
 - 🌐 **Spring Web**
 - ♻️ **Lombok**
 - 🔥 **Spring Boot DevTools**
 
-## 🚀 Como executar
+## 🚀 Resumo das Configurações
 
-### 1. Clone o repositório
+| Configuração | Seleção |
+|---|---|
+| 📦 Project | Maven |
+| 💻 Language | Java |
+| 🌱 Spring Boot | 4.1.0 |
+| 📦 Packaging | Jar |
+| ⚙️ Configuration | Properties |
+| ☕ Java | 25 |
+| 🌐 Dependency | Spring Web |
+| ♻️ Dependency | Lombok |
+| 🔥 Dependency | Spring Boot DevTools |
 
-```bash
-git clone <URL_DO_REPOSITORIO>
+---
+
+### ✅ Finalização
+
+Depois de configurar todas as opções, clique em **Generate** no Spring Initializr para baixar o projeto e começar o desenvolvimento.
