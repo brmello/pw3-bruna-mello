@@ -104,32 +104,38 @@ php artisan make:controller HelloController
 ```
 - Esse comando gera uma classe Controller, onde você vai colocar a lógica para responder às requisições web.
 
-Java Spring Boot
+---
 
-Para iniciar o desenvolvimento do projeto, acesse o site oficial do Spring Initializr em https://start.spring.io e faça o download da estrutura do projeto.
+# ☕ Java Spring Boot
 
-Configurações do projeto
+Este projeto foi desenvolvido utilizando **Spring Boot**, **Java 25** e **Maven** para gerenciamento das dependências.
 
-Project: selecione Maven, entre as opções Gradle Kotlin, Gradle Groovy e Maven, pois ele será utilizado para gerenciar o projeto Java.
+## ⚙️ Configuração do Projeto
 
-Language: escolha Java, que será a linguagem utilizada no desenvolvimento da aplicação.
+O projeto foi criado através do [Spring Initializr](https://start.spring.io), utilizando as seguintes configurações:
 
-Spring Boot: selecione a versão 4.1.0, evitando as versões marcadas como SNAPSHOT.
+| Configuração | Escolha |
+|---|---|
+| 📦 Project | Maven |
+| ☕ Language | Java |
+| 🌱 Spring Boot | 4.1.0 |
+| 📄 Packaging | Jar |
+| ⚙️ Configuration | Properties |
+| 🔢 Java | 25 |
 
-Project Metadata: preencha as informações do projeto de acordo com as configurações desejadas.
+> ⚠️ Foi utilizada uma versão estável do Spring Boot, sem versões `SNAPSHOT`.
 
-Packaging: escolha Jar em vez de War.
+## 📚 Dependências
 
-Configuration: selecione Properties para o formato dos arquivos de configuração.
+As seguintes dependências foram adicionadas ao projeto:
 
-Java: escolha a versão 25, conforme definido para o projeto.
+- 🌐 **Spring Web**
+- ♻️ **Lombok**
+- 🔥 **Spring Boot DevTools**
 
-Dependencies: adicione as dependências necessárias. Neste projeto, serão utilizadas:
+## 🚀 Como executar
 
-Spring Web
+### 1. Clone o repositório
 
-Lombok
-
-Spring Boot DevTools
-
-Depois de definir todas essas opções, basta gerar o projeto pelo Spring Initializr e abrir os arquivos no ambiente de desenvolvimento escolhido.
+```bash
+git clone <URL_DO_REPOSITORIO>
